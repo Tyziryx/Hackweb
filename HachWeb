@@ -1,0 +1,58 @@
+<!DOCTYPE html>		
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <script src="script/script.js	"></script>
+      <title> HachWeb</title>
+ 		<link rel="icon" type="image/png" sizes="16x16" href="https://img2.freepng.fr/20180131/are/kisspng-download-icon-anonymous-transparent-background-5a7281aaf0ca20.0305506815174537389863.jpg">
+		<style>
+			body{
+				margin:0;
+				overflow:hidden;
+				}
+		</style>
+
+   </head>
+<body>
+	<canvas id="hacker"></canvas>
+	<script src="./apps.js"></script>
+</body>
+   <body>
+      <header></header>
+      <nav></nav>
+      <main><div class="slider"><h1  align="center"> Le Hacking  </h1> </div>
+			
+			<div class="contenu"> 	
+				<a class=bouton href="#accueil"><strong>ACCUEIL</strong></a>
+				<a class=boutona href ="histoire.html"><strong>ANECDOTES</strong></a></div>
+			<p id="accueil"</p>	
+		</main>
+			<div class="try">
+				<div class="icones"><div class="article"> 
+										<h2 class="titre">L'histoire du hacking </h2> 
+												<p class="texte"> L'histoire de l'hacking prend ses racines dans les casseurs de codes ou crackers. The Economist fait le parallèle entre les deux phénomènes en prenant le cas du piratage du télégraphe Chappe par Joseph et François Blanc, qui emploient en 1834 une « faille » du code employé par ledit télégraphe pour faire fortune en faisant circuler des informations relatives aux cotations boursières.
+												Aux environs de 1960, les termes hacking et hacker sont introduits par le MIT2. Ils désignent le fait de bidouiller et d’expérimenter pour le plaisir. En 1969, John Draper parvient, à l’aide d’un sifflet qui possède la même tonalité que le réseau téléphonique américain, à passer des appel longues distances gratuitement lorsqu’il siffle dans le combiné2. Cette technique est nommée, par son créateur, phreaking et inspire une nouvelle vague de hackers informatiques. Ceux-ci cherchent à modifier et faire évoluer un premier ordinateur.
+												Ce n’est qu’en 1980 que les médias commencent à publier des articles concernant l'hacking2. Ils publient sur Kevin Poulsen, qui réussit à s’introduire dans un réseau réservé à l’armée, aux universités et entreprises. En 1983 sort le film Wargames, dont l’histoire est centrée sur un hacker qui parvient à accéder au système informatique de l’armée américaine. Le premier virus informatique apparaît également dans ces années3. En conséquence, les hackers sont vus comme des personnes dangereuses et irresponsables.De nombreux crackers commencent leur activité en essayant de casser les restrictions anticopie ou en détournant les règles des jeux informatiques. Mais lorsque les médias ont révélé au début des années 1990 que le Chaos Computer Club France était un faux groupe de hackers qui travaillait en collaboration avec la gendarmerie4, la communauté de hackers français s'est plutôt détournée vers le logiciel libre et de nombreuses communautés indépendantes ont vu le jour. 
+												 La naissance d'Internet, dans les années 1990, s’accompagne des premiers cas de cybercriminalité2. Les adeptes du domaine sont d'abord divisés. Les black hat mènent des activités criminelles, tandis que les white hat cherchent les vulnérabilités informatiques pour les rendre publiques et ainsi les réparer.
+
+												Dans les années 2000, les hackers veulent à nouveau pousser la technologie et « faire sauter les verrous imposés par les industriels »2. Par exemple, Jon Johansen parvient à contourner les protections des DVD et en copie le contenu. Une autre tendance apparue dans les années 2000 est l’utilisation du hacking pour militer comme les groupes Anonymous, Rtmark (en) ou le Chaos Computer Club.
+
+												En 2017, ces hackeurs continuent à mettre à disposition leurs ressources, souvent sous forme de wiki ou de dépôt. Les attaques informatiques à l'époque de Kevin Mitnick, Kevin Poulsen ou Jon Lech Johansen (« DVD Jon ») étaient peu nombreuses comparées à celles lancées dans les années 2000. En 2017, la menace est moins virulente, mais beaucoup plus massive, notamment par l'augmentation croissante des « script kiddies » ou hackers néophytes</p>
+												</div>
+									<div class="artice"></div>
+									<div class="artcle"></div></div>
+													<div class="def">go</div>
+							
+
+
+			
+							
+			
+			
+      <footer></footer>
+   </body>
+</html>
+
+
+
+

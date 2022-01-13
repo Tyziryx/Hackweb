@@ -1,0 +1,165 @@
+main {
+  display : flex;		/* tous les éléments immédiatement inclus dans main sont impactés*/
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content : center;
+  align-items: center;
+  scroll-behavior: auto;
+}
+main div {
+  min-width : 120px; 	/* on attribue une largeur et une hauteur minimum à tous les div contenus dans main */
+  min-height : 120px;
+}
+.slider {
+  width:1200px;
+  background-color : #444;
+}
+.contenu{
+  width:90%;
+  background-color :grey;
+  margin : 20px ;
+}
+.icones {
+  display : flex;   /* tous les éléments immédiatement inclus dans main sont impactés*/
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content : center;
+  align-items :center;
+  width:60%;
+  background-color : grey; 
+  margin : 10px; 
+}
+.article {
+  display : flex;  
+  flex-wrap: wrap-reverse;
+  background-color : black ;
+  text-align:center;
+  align-items :center;
+
+  width:100%;
+  margin : 5px;
+   border-radius: 3px;
+
+}
+.article1 {
+  display : flex;  
+  flex-wrap: wrap-reverse;
+  background-color : black ;
+  text-align:center;
+  align-items :center;
+
+  width:100%;
+  margin : 5px;
+   border-radius: 3px;
+
+}
+.try{
+display:none;
+display:flex;
+
+} 
+h1{
+  color:white;
+  font-size: 50pt;
+  font-family: Stencil Std, fantasy ;
+  text-decoration: underline ;
+}
+.def {  
+display :none;
+flex-wrap: wrap;
+align-content: flex-end;
+align-items: center;
+background-color : grey; 
+margin : 10px; 
+width:35%;
+border-radius: 5px;
+}
+
+.titre {
+color:white;
+  margin: auto;
+  text-orientation: upright;
+}
+
+.bouton{
+
+background-color: black;
+border: none;
+color: white;
+padding:15px;
+text-align: center;
+display: inline-block;
+font-size: 35px;
+margin: 20px 2px;
+border-radius: 1rem;
+position: relative  ;
+left: 50px ;
+top: 5px;
+
+}
+a
+{
+transition: color 0.5s;
+}
+a:hover
+{
+color: green;
+}
+.texte{
+color: white;
+font-size: 140%;
+text-align:left;
+margin:8px;
+}
+
+.boutona{
+
+background-color: black;
+border: none;
+color: white;
+padding:20px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+margin: 20px 2px;
+border-radius: 1rem;
+position: relative  ;
+left: 110px ;
+top: 5px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+.images{
+  position:relative;
+  top:-00px;
+  right:-30px;
+  height:350px;
+  width:600px;
+  border-radius: 5px; 
+}
+.texte1{
+color: black;
+font-size: 120%;
+text-align:left;
+margin:8px;
+position:flex;
+top:-50px;
+
+  }
+body{
+  background-image: url('https://img1.wallspic.com/originals/4/5/8/8/3/138854-chambre-securite-mobilier-securite_hacker-design_dinterieur-1920x1080.jpg') ;
+  
+
+}
+.images1{
+  position:relative;
+  top:-700px;
+  right:-30px;
+  height:325px;
+  width:600px;
+  border-radius: 5px; 
+
+}

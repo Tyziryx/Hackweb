@@ -1,18 +1,27 @@
-const s = window.screen;
-const w = (hacker.width = s.width);
-const h = (hacker.height = s.height);
-const ctx = hacker.getContext("2d");
-const p = Array(Math.floor(w / 10) + 1).fill(0);
-const random = (items) => items[Math.floor(Math.random() * items.length)];
-const hex = "0123456789ABCDEFG".split("");
+const hacker = document.querySelector('#hacker');
+const ctx = hacker.getContext('2d');
+const w = hacker.width = document.body.offsetWidth;
+const h = hacker.height = document.body.offsetHeight;
+const cols = Math.floor(w / 20) + 1;
+const ypos = Array(cols).fill(0);
 
-setInterval(() => {
-    ctx.fillStyle = "rgba(0, 0, 0, .05)";
-    ctx.fillRect(0, 0, w, h);
-    ctx.fillStyle = "green";
-    p.map((v, i) => {
-        ctx.fillText(random(hex), i * 10, v);
-        p[i] = v >= h || v > 50 + 10000 * Math.random() ? 0 : v + 10;
-    });
+ctx.fillStyle = '#000';
+ctx.fillRect(0, 0, w, h);
 
-}, 1000 / 30);
+function hackerBackground () {
+  ctx.fillStyle = '#0001';
+  ctx.fillRect(0, 0, w, h);
+  
+  ctx.fillStyle = '#0f0';
+  ctx.font = '15pt monospace';
+  
+  ypos.forEach((y, ind) => {
+    const text = String.fromCharCode(Math.random() * 128);
+    const x = ind * 20;
+    ctx.fillText(text, x, y);
+    if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
+    else ypos[ind] = y + 20;
+  });
+}
+
+setInterval(hackerBackground, 60);
